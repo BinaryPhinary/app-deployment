@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mbeye-http-server
+  namespace: mbeye-app
   labels:
     app: mbeye-http-server
 spec:
