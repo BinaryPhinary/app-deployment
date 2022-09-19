@@ -10,7 +10,7 @@ pipeline {
     }
 environment 
     {
-        PROJECT = 'mb-eye'
+        PROJECT = 'mb-eye:latest'
         ECRURL = 'https://633706706076.dkr.ecr.us-east-1.amazonaws.com'
         ECRCRED = 'ecr:us-east-1:aws-main-admin-user'
         DOCKER_CONFIG = "/home/ec2-user/.docker/config.json"
