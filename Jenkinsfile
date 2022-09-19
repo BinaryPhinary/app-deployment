@@ -47,8 +47,8 @@ stages {
             '''
             curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
             chmod +x ./kubectl
-            sudo ./kubectl apply -f mb-eye-deployment.yml
-            sudo ./kubectl apply -f mb-eye-services.yml
+            ./kubectl apply -f mb-eye-deployment.yml
+            ./kubectl apply -f mb-eye-services.yml
             
             '''
         }
